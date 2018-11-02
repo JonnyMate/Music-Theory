@@ -14,10 +14,22 @@ img {
   margin: 10px;
   margin-top: 20px;
   padding: 0px;
+  border: solid 3px #000;
+}
+
+footer {
+  text-align: center;
+  color: #fff;
+  background-color: #121212;
+  padding: 20px;
+  margin: 20px 0px 0px 0px;
+}
+
+footer a {
+  color: #e58200;
 }
 
 .nav {
-
   list-style: none;
   background-color: #121212;
   color: #fff;
@@ -41,8 +53,8 @@ img {
 .pageBanner {
   margin: 10px;
   padding: 1em;
-  background-color: #e58200;
   color: #fff;
+  background-color: #e58200;
   border-left: solid 10px #d16100;
 }
 
@@ -67,11 +79,10 @@ img {
 .pics img {
   height: 450px;
   width: 600px;
-
 }
 
 .pics img:hover {
-  opacity: 0.5;
+  opacity: 0.4;
   transition: 0.4s;
 }
 
@@ -82,4 +93,5 @@ img {
 .logo {
   margin: 0;
   padding: 0;
+  border: none;
 }
